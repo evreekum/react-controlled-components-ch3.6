@@ -1,1 +1,43 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div h2::first-letter, label::first-letter {
+    text-transform: uppercase;
+}
+
+.person-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em;
+    border: 2px solid darkgrey;
+    width: 700px;
+}
+
+
+
+.person-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    border: 2px solid darkgrey;
+    width: 700px;
+}
+
+/*
+.comments-field {
+    display: block;
+
+}
+*/
+
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
