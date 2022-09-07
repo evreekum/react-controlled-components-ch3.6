@@ -8,36 +8,43 @@ div h2::first-letter, label::first-letter {
     text-transform: uppercase;
 }
 
-.person-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 2em;
-    border: 2px solid darkgrey;
-    width: 700px;
-}
-
-
-
-.person-review {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 30px;
-    border: 2px solid darkgrey;
-    width: 700px;
-}
-
-/*
-.comments-field {
+label {
     display: block;
-
+    margin: 25px 15px;
 }
-*/
+
+/*.person-data {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    padding: 2em;*/
+/*    border: 2px solid darkgrey;*/
+/*    width: 700px;*/
+/*}*/
 
 
-button {
-    display: flex;
-    flex-direction: column;
-    margin: 2em;
-}
+
+/*.person-review {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    padding: 30px;*/
+/*    border: 2px solid darkgrey;*/
+/*    width: 700px;*/
+/*}*/
+
+/*.person-review:nth-of-type(2) {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.comments-field {*/
+/*    display-inside: ruby-base-container;*/
+
+/*}*/
+
+
+/*button {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 2em;*/
+/*}*/
